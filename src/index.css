@@ -1,9 +1,13 @@
-.button {
-  background-color: orange;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  color: white;
+.student {
+  color: darkslateblue;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  border: 1px solid hsla(0, 0%, 39%, 0.535);
+  padding: 10px;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.student p {
+  margin: 0;
 }
