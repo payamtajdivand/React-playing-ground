@@ -9,9 +9,18 @@ function App() {
     { id: 4, name: "kiwi", calories: 60 },
     { id: 5, name: "pine apple", calories: 42 },
   ];
+
+  const vegtabales = [
+    { id: 6, name: "potato", calories: 25 },
+    { id: 7, name: "carrot", calories: 36 },
+    { id: 8, name: "corn", calories: 15 },
+    { id: 9, name: "broccoli", calories: 7 },
+    { id: 10, name: "celery", calories: 12 },
+  ];
   return (
     <>
       <List category="Fruits" items={fruits} />
+      <List category="Vegtabales" items={vegtabales} />
     </>
   );
 }
