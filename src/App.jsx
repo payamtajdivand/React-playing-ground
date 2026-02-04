@@ -1,8 +1,8 @@
 import "./App.css";
-import MyComponent from "./MyComponent";
+import ColorPicker from "./ColorPicker.jsx";
 
 function App() {
-  return <MyComponent />;
+  return <ColorPicker />;
 }
 
 export default App;

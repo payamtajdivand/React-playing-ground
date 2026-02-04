@@ -1,0 +1,40 @@
+.color-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.color-selected {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 5px solid rgb(193, 193, 193);
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.25s ease;
+}
+
+.color-text {
+  font-weight: bold;
+}
+
+.color-input {
+  margin-top: -10px;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(193, 193, 193);
+}
