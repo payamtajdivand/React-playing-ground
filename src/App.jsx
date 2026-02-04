@@ -1,9 +1,8 @@
 import "./App.css";
-import Button from "./Button.jsx";
-import ProfileImage from "./ProfileImage.jsx";
+import MyComponent from "./MyComponent";
 
 function App() {
-  return <ProfileImage />;
+  return <MyComponent />;
 }
 
 export default App;
