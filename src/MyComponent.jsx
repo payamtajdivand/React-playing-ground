@@ -48,7 +48,7 @@ function MyComponent() {
       <p>Your comment: {comment}</p>
 
       <select value={payment} onChange={handlePaymentChange}>
-        <option value="">Select payment method</option>
+        <option value="">Select payment method please.</option>
         <option value="visa">visa</option>
         <option value="PayPal">PayPal</option>
         <option value="gift card">gift card</option>
