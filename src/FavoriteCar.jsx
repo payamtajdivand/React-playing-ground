@@ -23,7 +23,7 @@ function FavoriteCar() {
         Your favourite car is: {car.year} {car.make} {car.model}
       </p>
       <input
-        type="text"
+        type="number"
         value={car.year}
         onChange={handleYearChange}
         style={{ marginBottom: "10px" }}
