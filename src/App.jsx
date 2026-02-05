@@ -1,8 +1,9 @@
 import "./App.css";
-import ColorPicker from "./ColorPicker.jsx";
+
+import FavoriteCar from "./FavoriteCar.jsx";
 
 function App() {
-  return <ColorPicker />;
+  return <FavoriteCar />;
 }
 
 export default App;
