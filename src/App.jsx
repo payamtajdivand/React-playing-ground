@@ -1,9 +1,8 @@
 import "./App.css";
-
-import FruitsList from "./FruitList.jsx";
+import MyComponent from "./MyComponent.jsx";
 
 function App() {
-  return <FruitsList />;
+  return <MyComponent />;
 }
 
 export default App;
