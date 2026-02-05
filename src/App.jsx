@@ -1,9 +1,9 @@
 import "./App.css";
 
-import FavoriteCar from "./FavoriteCar.jsx";
+import FruitsList from "./FruitList.jsx";
 
 function App() {
-  return <FavoriteCar />;
+  return <FruitsList />;
 }
 
 export default App;
