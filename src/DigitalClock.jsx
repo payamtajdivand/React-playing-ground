@@ -4,7 +4,7 @@ function DigitalClock() {
   const [time, setTime] = useState(new Date());
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setTime(time);
+      setTime(new Date());
     }, 1000);
 
     return () => {
@@ -13,7 +13,7 @@ function DigitalClock() {
   }, []);
 
   function padZero(number) {
-    return number < 10 ? "0" : "" + number;
+    return (number < 10 ? "0" : "") + number;
   }
 
   function formatTime() {
