@@ -1,8 +1,8 @@
 import "./App.css";
-import WidthHeight from "./WidthHeight";
+import DigitalClock from "./DigitalClock.jsx";
 
 function App() {
-  return <WidthHeight />;
+  return <DigitalClock />;
 }
 
 export default App;
