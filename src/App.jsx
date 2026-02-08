@@ -1,8 +1,8 @@
 import "./App.css";
-import ComponentA from "./ComponentA.jsx/";
+import MyComponent from "./MyComponent";
 
 function App() {
-  return <ComponentA />;
+  return <MyComponent />;
 }
 
 export default App;
