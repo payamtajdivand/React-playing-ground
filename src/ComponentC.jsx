@@ -1,11 +1,10 @@
-import React, { useContext } from "react";
 import ComponentD from "./ComponentD";
 
-function ComponentC(props) {
+function ComponentC() {
   return (
     <div className="box">
       <p>component C</p>
-      <ComponentD user={props.user} />
+      <ComponentD />
     </div>
   );
 }
