@@ -25,7 +25,7 @@ function StopWatch() {
         <button className="stop-button" onClick={stopWatch}>
           stop
         </button>
-        <button className="restart-button" onClick={resetWatch}>
+        <button className="reset-button" onClick={resetWatch}>
           reset
         </button>
       </div>
