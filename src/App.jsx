@@ -1,8 +1,9 @@
 import "./App.css";
-import MyComponent from "./MyComponent";
+
+import StopWatch from "./StopWatch";
 
 function App() {
-  return <MyComponent />;
+  return <StopWatch />;
 }
 
 export default App;
