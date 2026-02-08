@@ -1,8 +1,8 @@
 import "./App.css";
-import DigitalClock from "./DigitalClock.jsx";
+import ComponentA from "./ComponentA.jsx/";
 
 function App() {
-  return <DigitalClock />;
+  return <ComponentA />;
 }
 
 export default App;
