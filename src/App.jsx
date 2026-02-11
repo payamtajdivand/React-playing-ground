@@ -3,7 +3,12 @@ import "./App.css";
 import StopWatch from "./StopWatch";
 
 function App() {
-  return <StopWatch />;
+  return (
+    <div>
+      <StopWatch />
+      <StopWatch />
+    </div>
+  );
 }
 
 export default App;
